@@ -234,17 +234,7 @@
   font-weight: 600;
 }
 
-.header__form-note {
-  font-size: 13px;
-  text-align: center;
-}
-
-.personal-data-link {
-  color: #00a9e3;
-  text-decoration: none;
-}
-
-@media (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .send_application-btn {
     position: absolute;
     right: 122px;

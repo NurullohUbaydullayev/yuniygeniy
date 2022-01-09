@@ -107,6 +107,13 @@
 }
 .footer__logo {
   padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "PFDinDisplayPro", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #22ace3;
 }
 
 @media only screen and(max-width: 1000px) {
@@ -167,6 +174,7 @@
   .footer__footer-info {
     margin-bottom: 20px;
     width: 350px;
+    text-align: center;
   }
 
   .footer__send_application-btn {
@@ -177,6 +185,8 @@
   .footer__list__item:last-child {
     display: flex;
     flex-direction: column;
+    white-space: nowrap;
+    margin-left: 10px;
   }
 
   .footer__footer-info {
