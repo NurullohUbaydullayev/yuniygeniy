@@ -40,6 +40,10 @@ img {
   user-select: none;
 }
 
+.slideshow-container:last-child {
+  display: none;
+}
+
 /* Position the "next button" to the right */
 .prev {
   left: -50px;

@@ -77,6 +77,11 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 100px !important;
+    padding-left: 50px;
+  }
+
+  .benefits__list-item-left {
+    margin: 0 0;
   }
 
   .benefits__list-item-right {
@@ -85,6 +90,12 @@
 
   .benefits__list-item:nth-child(2n) {
     order: 2;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .benefits__list-item {
+    padding-left: 10px;
   }
 }
 
